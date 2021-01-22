@@ -1,0 +1,13 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+}
+
+
+.social-proof-container{
+    background-image: url("/social_proof_section/frontend_mentor_social_proof_section/images/bg-pattern-bottom-desktop.svg"), url("/social_proof_section/frontend_mentor_social_proof_section/images/bg-pattern-top-desktop.svg");
+    position: relative;
+    
+}
