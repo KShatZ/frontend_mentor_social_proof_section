@@ -2,12 +2,158 @@ body{
     margin: 0 ;
     padding: 0;
     font-family: 'Spartan', sans-serif;
-    text-align: center;
 }
 
 
 .social-proof-container{
     background-image: url("/social_proof_section/frontend_mentor_social_proof_section/images/bg-pattern-bottom-desktop.svg"), url("/social_proof_section/frontend_mentor_social_proof_section/images/bg-pattern-top-desktop.svg");
     position: relative;
-    
+    height: 500px;
 }
+
+.row-1{
+    position: relative;
+    padding-top: 100px;
+}
+
+.left-half{
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+}
+
+.left-half h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    width: 55%;
+    margin: auto;
+    padding-right: 50px;
+}
+.left-half p{
+    position: relative;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    font-size: 15px;
+    left: 62px;
+    width: 75%;
+    margin:  15px auto;
+    padding-right: 50px;
+}
+
+.right-half{
+    background-color: none;
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+}
+
+
+.table-1{
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    padding: 10px 70px 10px 20px;
+    border-radius: 5px;
+}
+.table-2{
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    padding: 10px 70px 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 45px;
+}
+.table-3{
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    padding: 10px 70px 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 90px;
+}
+
+.star{
+    padding-left: 5px;
+}
+
+.rated{
+    padding-left: 50px;
+}
+
+.row-2{
+    position:relative;
+    top: 200px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.card-1{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 50px 10px;
+    text-align: left;
+}
+
+.card-2{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 50px 10px;
+    text-align: left;
+}
+
+.card-3{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 50px 10px;
+    text-align: left;
+}
+
+
+
+.review-picture{
+    border-radius: 50%;
+    height: 50px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+
+.name{
+    color: hsl(300, 24%, 96%);
+    font-weight: 400;
+    margin: 0;
+    padding-top: 25px;
+    margin-bottom: 5px;
+}
+
+.verified-buyer{
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    margin: 0;
+}
+
+.review{
+    color: hsl(0, 0%, 100%);
+    clear: both;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.56em;
+    font-size: .8125em;
+    font-weight: 400;
+}
+
